@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        #my{
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="my">
+        <h1>this is your title of the page</h1>
+    </div>
+    <div>
+        <form action="submit">
+            <label for="name">Enter your name</label>
+            <input type="text" name="name" id="n1">
+            
+            <label for="rollNo">Enter your name</label>
+            <input type="text" name="rollNo" id="n2">
+
+            <button type="button" onclick="collect()">Submit</button>
+        </form>
+        </div>
+
+        <div id="output">
+<table>
+   
+
+        
+    </tr>
+</table>
+        </div>
+        <script>
+            var output = `<table> <tr><th>name</th><th>roll no</th></tr>`
+                collect=()=>{
+                var fill = document.getElementById("n1").value;
+                var fill1 = document.getElementById("n2").value;
+                output+=` <tr><td>`+fill+`</td>`;
+                output+=`<td>`+fill1+'</td></tr>';
+
+                document.getElementById("output").innerHTML= output;
+
+             
+                }
+
+        </script>
+</body>
+</html>
