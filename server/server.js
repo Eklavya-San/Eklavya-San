@@ -4,7 +4,7 @@ const app = express();
 const port =4949;
 const path = require('path');
 app.get('/',(req,res)=>{
-    res.send("<h1>You have joined My page!")
+    res.sendFile(path.join(__dirname,'./public /new.html'));
 })
 
 app.get('/home',(req,res)=>{
