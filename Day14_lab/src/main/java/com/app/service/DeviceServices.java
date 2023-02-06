@@ -12,5 +12,9 @@ public interface DeviceServices {
 	ElectronicDevice addNewDevice(ElectronicDevice transientDevice);
 	
 	String deleteDevice (Long id);
+
+	ElectronicDevice updateDeviceDetails(ElectronicDevice updated);
+
+	ElectronicDevice fetchDetails(Long id);
 	
 }

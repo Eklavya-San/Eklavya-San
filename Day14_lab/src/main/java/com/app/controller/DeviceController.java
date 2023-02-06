@@ -3,10 +3,12 @@ package com.app.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.convert.PeriodUnit;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -36,9 +38,14 @@ public class DeviceController {
 	}
 	@DeleteMapping("/{id}")
 	
-	public String  deleDevice(@RequestBody Long id) {
+	public String  deleteDevice(@RequestBody Long id) {
 		String message = drepo.deleteDevice(id);
 		return message;
 		
 	}
+	@PutMapping("update")
+	public ElectronicDevice updateDevice (@RequestBody ElectronicDevice updated) {
+		return drepo.updateDeviceDetails(updated);
+	}
+	
 }
