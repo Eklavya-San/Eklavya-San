@@ -26,47 +26,6 @@ I enjoy building software that solves real-world problems—from industrial auto
 
 ---
 
-# 🚀 Current Projects
-
-### 🏭 MachineWise
-
-Industrial IoT platform for CNC machine monitoring featuring
-
-- Real-time dashboards
-- Machine utilisation analytics
-- OEE monitoring
-- Production scheduling
-- Route card management
-- MQTT communication
-- Docker deployments
-
----
-
-### 🤖 AI Developer Toolkit
-
-Building AI tools using
-
-- Ollama
-- Claude Code
-- OpenAI Compatible APIs
-- Local LLMs
-- AI Code Routing
-- Automation Workflows
-
----
-
-### 🐳 OTA Deployment Platform
-
-Deployment platform capable of
-
-- Docker image updates
-- Version management
-- Secure deployments
-- Automatic rollback
-- Remote customer installations
-
----
-
 # 🛠 Tech Stack
 
 ## Frontend
@@ -106,52 +65,6 @@ Deployment platform capable of
 
 ---
 
-# ⭐ Featured Projects
-
-## 🏭 MachineWise Industrial Monitoring
-
-Industrial monitoring platform for manufacturing companies.
-
-**Highlights**
-
-- Real-time machine monitoring
-- Live production dashboards
-- OEE calculations
-- Scheduling
-- Reports
-- Analytics
-- Docker deployment
-- MQTT communication
-
----
-
-## 🤖 AI Code Router
-
-Routes coding requests between multiple AI models depending on task complexity.
-
-**Features**
-
-- Local LLM support
-- Cloud AI integration
-- OpenAI compatible APIs
-- Claude Code integration
-- Intelligent routing
-
----
-
-## 🐳 Docker Deployment Platform
-
-Enterprise deployment system used for customer installations.
-
-**Features**
-
-- One-click deployments
-- OTA updates
-- Docker image management
-- Reverse proxy
-- Secure deployments
-
----
 # ⭐ Featured Projects
 
 ## 📄 Document RAG
@@ -238,15 +151,15 @@ TypeScript • Node.js • Ollama • OpenAI API • Docker
 
 # 🎥 Content
 
-I enjoy creating technical content about
+I create technical content about AI, Full Stack Development, Docker, Local LLMs, and Developer Productivity.
 
-- Artificial Intelligence
-- Full Stack Development
-- Docker
-- Local LLMs
-- Developer Productivity
-- System Design
-- Open Source
+<p>
+  <a href="https://www.youtube.com/@developer_by_choice">
+    <img src="https://skillicons.dev/icons?i=youtube" alt="YouTube" />
+  </a>
+</p>
+
+🔗 [youtube.com/@developer_by_choice](https://www.youtube.com/@developer_by_choice)
 
 ---
 
@@ -254,11 +167,11 @@ I enjoy creating technical content about
 
 <p align="left">
 <a href="https://linkedin.com/in/eklavya-ghodake-0bb604197">
-<img src="https://skillicons.dev/icons?i=linkedin" />
+  <img src="https://skillicons.dev/icons?i=linkedin" />
 </a>
 
 <a href="https://twitter.com/Eghodake">
-<img src="https://skillicons.dev/icons?i=twitter" />
+  <img src="https://skillicons.dev/icons?i=twitter" />
 </a>
 </p>
 
