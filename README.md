@@ -149,20 +149,6 @@ TypeScript • Node.js • Ollama • OpenAI API • Docker
 
 ---
 
-# 🎥 Content
-
-I create technical content about AI, Full Stack Development, Docker, Local LLMs, and Developer Productivity.
-
-<p>
-  <a href="https://www.youtube.com/@developer_by_choice">
-    <img src="https://skillicons.dev/icons?i=youtube" alt="YouTube" />
-  </a>
-</p>
-
-🔗 [youtube.com/@developer_by_choice](https://www.youtube.com/@developer_by_choice)
-
----
-
 # 🌐 Connect With Me
 
 <p align="left">
